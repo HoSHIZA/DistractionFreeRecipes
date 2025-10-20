@@ -1,0 +1,9 @@
+{
+  "gui.distractionfreerecipes.search_recipes": "Используйте поиск для показа рецептов",
+  "gui.distractionfreerecipes.show_recipes": "Показать рецепты",
+  "gui.distractionfreerecipes.hide_recipes": "Скрыть рецепты",
+
+  "distraction_free_recipes.configuration.Enable Distraction-Free Mode": "Включить не отвлекающий режим",
+  "distraction_free_recipes.configuration.Lower Opacity ?": "Меньшая непрозрачность?",
+  "distraction_free_recipes.configuration.client": "клиент"
+}

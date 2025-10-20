@@ -3,6 +3,7 @@ package toni.distractionfreerecipes.foundation;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.renderer.Rect2i;
+import net.minecraft.network.chat.Component;
 import net.minecraft.util.FastColor;
 import toni.distractionfreerecipes.foundation.config.AllConfigs;
 
@@ -17,7 +18,7 @@ public class GuiHelpers {
         if (AllConfigs.client().showText.get())
         {
             var bound = searchBounds;
-            var str = "Search to View Recipes";
+            var str = Component.translatable("gui.distractionfreerecipes.search_recipes");
             var fontWidth = font.width(str);
 
             guiGraphics.drawString(
@@ -32,7 +33,7 @@ public class GuiHelpers {
         {
             guiGraphics.fill(toggle.getX(), toggle.getY(), toggle.getX() + toggle.getWidth(), toggle.getY() + toggle.getHeight(), FastColor.ARGB32.color(50,0,0,0));
 
-            var toggleStr = "Show Recipes";
+            var toggleStr = Component.translatable("gui.distractionfreerecipes.show_recipes");
             var toggleFontWidth = font.width(toggleStr);
 
             guiGraphics.drawString(
@@ -76,7 +77,7 @@ public class GuiHelpers {
 
         guiGraphics.fill(toggle.getX(), toggle.getY(), toggle.getX() + toggle.getWidth(), toggle.getY() + toggle.getHeight(), FastColor.ARGB32.color(50,0,0,0));
 
-        var toggleStr = "Hide Recipes";
+        var toggleStr = Component.translatable("gui.distractionfreerecipes.hide_recipes");
         var toggleFontWidth = font.width(toggleStr);
 
         guiGraphics.drawString(

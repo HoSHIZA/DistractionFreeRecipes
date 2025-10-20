@@ -1,4 +1,8 @@
 {
+  "gui.distractionfreerecipes.search_recipes": "Search to View Recipes",
+  "gui.distractionfreerecipes.show_recipes": "Show Recipes",
+  "gui.distractionfreerecipes.hide_recipes": "Hide Recipes",
+
   "distraction_free_recipes.configuration.Enable Distraction-Free Mode": "Enable Distraction-Free Mode",
   "distraction_free_recipes.configuration.Lower Opacity ?": "Lower Opacity ?",
   "distraction_free_recipes.configuration.client": "client"
